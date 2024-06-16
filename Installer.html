@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo Setting up termux for install
+ 
+termux-setup-storage
+pkg update
+pkg upgrade
+pkg install x11-repo
+pkg install wget
+pkg install git
+pkg install tigervnc
+clear
+
+echo installing xfce4
+
+pkg install xfce4
+clear
+
+
+echo installing browsers
+pkg install firefox
+clear 
+
+Done Just type vncserver and set a password then type startxfce4
