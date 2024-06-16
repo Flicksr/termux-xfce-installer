@@ -1,2 +1,5 @@
 # termux-xfce-installer
-Installs xfce4 and all the important stuff needed for xfce4 Vnc apps browsers etc
+An open source xfce installer for termux that installs
+
+# Browsers
+Firefox
