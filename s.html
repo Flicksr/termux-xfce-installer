@@ -1,0 +1,14 @@
+#!/bin/bash
+clear
+echo   X F C E L O A D E R
+
+echo Binding display to :1
+export DISPLAY=":1"
+echo Successfully Binded
+
+echo Starting Vnc
+vncserver
+
+echo Starting xfce
+startxfce4
+
